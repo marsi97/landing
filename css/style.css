@@ -1,0 +1,104 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url('../images/sea.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: white;
+  text-emphasis: bold;
+  text-align: justify;
+}
+
+.banner p {
+  color:white;
+  opacity: 1;
+  font-size: 30px;
+  text-emphasis: bold ;
+  text-align : justify;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #45cad8;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: rgb(245, 247, 248);
+}
+
+.btn-secondary {
+  border: 1px solid #45cad8;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color:#45cad8;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #2897a9;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #2897a9;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #fafafa;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #ed3a3a;
+}
+
+.footer p {
+  color: #bb382c;
+}
+
+.footer .fas {
+  color: #bf0f0f;
+}
